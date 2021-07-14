@@ -1,6 +1,7 @@
-# Avaliação de Aluno
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/evertonulisystem/avaliacao-aluno/blob/master/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/evertonulisystem/avaliacao-aluno) ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCv68KoK1bo2R44fGmcT1G2g?label=INSCREVA-SE&style=social)
+# Selos 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/evertonulisystem/avaliacao-aluno/blob/master/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/evertonulisystem/avaliacao-aluno) ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCv68KoK1bo2R44fGmcT1G2g?label=INSCREVA-SE&style=social) ![GitHub language count](https://img.shields.io/github/languages/count/EVERTONULISYSTEM/avaliacao-aluno)
 
+# Avaliação de Aluno
 # Sobre o projeto
 
 ###Aqui seria o link do projeto publicado (EX.:https://evertonuli.teste.avaliacao.app  
