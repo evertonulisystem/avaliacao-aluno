@@ -5,7 +5,7 @@
 ###Aqui seria o link do projeto publicado (EX.:https://evertonuli.teste.avaliacao.app  
 
 Este sistema de nivel básico mostra uma abordagem de programação procedural com detalhes em orientação a obejtos.  
-Em nova versao sera criado modo puramente em **Orientação a Obejtos**.
+Em nova versao sera criado modo puramente em **Orientação a Objetos**.
 
 Canal voltado a tecnologia da Informação: [Gotas de Tecnologia](https://www.youtube.com/channel/UCv68KoK1bo2R44fGmcT1G2g)
 
