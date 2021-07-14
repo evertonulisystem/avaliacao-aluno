@@ -21,6 +21,15 @@ Canal voltado a tecnologia da Informação: [Gotas de Tecnologia](https://www.yo
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
 
+# Features implementadas - CAsos de Uso
+* Cadasreo
+* Consulta
+* Resultado das notas
+
+# Competências adquiridas
+* Converter inteiro para double
+* Converter String para double
+
 # Tecnologias utilizadas
 ## Back end
 - Java
@@ -90,4 +99,5 @@ Este é um projeto basico de configuração inicial do GIT na IDE Eclipse.
 
 ![Canal Gotas de Tecnologia](https://www.dropbox.com/s/wc3fs1zj4ilv8dx/LogoGotasDeTecnologia.png?dl=0)
 
-
+# Agradecimentos
+Parte do curso desenvolvido na JDEV Treinamento
