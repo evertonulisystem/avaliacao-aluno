@@ -13,12 +13,14 @@ Canal voltado a tecnologia da Informação: [Gotas de Tecnologia](https://www.yo
 
 ## Layout mobile
 #### Exemplo na mesma linha
-![Nome de Referencia](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+
+![Teste](https://github.com/evertonulisystem/avaliacao-aluno/blob/master/assets/LogoGotasDeTecnologia.png) ![Teste](https://github.com/evertonulisystem/avaliacao-aluno/blob/master/assets/LogoGotasDeTecnologia.png) 
 
 #### Exemplo em linha diferentes
 ## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+![Teste](https://github.com/evertonulisystem/avaliacao-aluno/blob/master/assets/LogoGotasDeTecnologia.png) 
+![Teste](https://github.com/evertonulisystem/avaliacao-aluno/blob/master/assets/LogoGotasDeTecnologia.png) 
+
 
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
