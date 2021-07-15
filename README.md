@@ -4,8 +4,6 @@
 # Avaliação de Aluno
 # Sobre o projeto
 
-#Some Markdown text with <span style="color:blue">some *blue* text</span>  
-
 ###Aqui seria o link do projeto publicado (EX.:https://evertonuli.teste.avaliacao.app  
 
 Este sistema de nivel básico mostra uma abordagem de programação procedural com detalhes em orientação a obejtos.  
@@ -17,6 +15,8 @@ Canal voltado a tecnologia da Informação: [Gotas de Tecnologia](https://www.yo
 #### Exemplo na mesma linha
 
 ![Canal](https://github.com/evertonulisystem/avaliacao-aluno/tree/master/assets/LogoGotasDeTecnologia.png) ![Canal](https://github.com/evertonulisystem/avaliacao-aluno/tree/master/assets/LogoGotasDeTecnologia.png) 
+
+![Teste](https://github.com/evertonulisystem/avaliacao-aluno/blob/master/assets/LogoGotasDeTecnologia.png) 
 
 #### Exemplo em linha diferentes
 ## Layout web
