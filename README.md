@@ -13,7 +13,9 @@ Canal voltado a tecnologia da Informação: [Gotas de Tecnologia](https://www.yo
 
 ## Layout mobile
 #### Exemplo na mesma linha
+
 ![Nome de Referencia](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+![Canal](https://github.com/evertonulisystem/avaliacao-aluno/tree/master/assets
 
 #### Exemplo em linha diferentes
 ## Layout web
