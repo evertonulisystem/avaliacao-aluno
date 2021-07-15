@@ -4,7 +4,7 @@
 # Avaliação de Aluno
 # Sobre o projeto
 
-<p>Some Markdown text with <span style="color:blue">some <em>blue</em> text</span>.</p>
+#Some Markdown text with <span style="color:blue">some *blue* text</span>  
 
 ###Aqui seria o link do projeto publicado (EX.:https://evertonuli.teste.avaliacao.app  
 
