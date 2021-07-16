@@ -3,8 +3,6 @@
 
 # Sobre o projeto
 
-###Aqui seria o link do projeto publicado (EX.:https://evertonuli.teste.avaliacao.app  
-
 Este projeto em JAVA puro, mostra os detalhes para iniciantes na carreira de desenvolvimento de sistemas. 
 Estarei mostrando uma abordagem de programação procedural com detalhes em orientação a objetos. É fruto de varios tutoriais, deixando o visitante apto a criar tais sistemas.
 
@@ -12,16 +10,9 @@ Em nova versao sera criado modo puramente em **Orientação a Objetos**.
 
 Canal voltado a tecnologia da Informação: [Gotas de Tecnologia](https://www.youtube.com/channel/UCv68KoK1bo2R44fGmcT1G2g)
 
-## Layout mobile
-#### Exemplo na mesma linha
+#### Aqui vai imagem da tela inicial simples
 
-![Teste](https://github.com/evertonulisystem/avaliacao-aluno/blob/master/assets/LogoGotasDeTecnologia.png) ![Teste](https://github.com/evertonulisystem/avaliacao-aluno/blob/master/assets/LogoGotasDeTecnologia.png) 
-
-#### Exemplo em linha diferentes
-## Layout web
 ![Teste](https://github.com/evertonulisystem/avaliacao-aluno/blob/master/assets/LogoGotasDeTecnologia.png) 
-![Teste](https://github.com/evertonulisystem/avaliacao-aluno/blob/master/assets/LogoGotasDeTecnologia.png) 
-
 
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
@@ -32,8 +23,8 @@ Canal voltado a tecnologia da Informação: [Gotas de Tecnologia](https://www.yo
 * Resultado das notas
 
 # Competências adquiridas
-* Converter inteiro para double
-* Converter String para double
+* Converter inteiro para double com Integer
+* Converter String para double com Double
 
 # Tecnologias utilizadas
 
@@ -98,9 +89,5 @@ Descreva o subitem
 Maiores detalhes visite canal Oficial: https://www.youtube.com/channel/UCv68KoK1bo2R44fGmcT1G2g
 
 ```  
-Este é um projeto basico de configuração inicial do GIT na IDE Eclipse.
-
-![Canal Gotas de Tecnologia](https://www.dropbox.com/s/wc3fs1zj4ilv8dx/LogoGotasDeTecnologia.png?dl=0)
-
 # Agradecimentos
-Parte do curso desenvolvido na JDEV Treinamento
+Tutoriais diversos
