@@ -13,6 +13,7 @@ public class Calculos {
 		String nomePai = JOptionPane.showInputDialog("Informe o nome do pai do aluno: ");
 		String nomeMae = JOptionPane.showInputDialog("Informe o nome da mae do aluno: ");
 		
+		
 	}
 
 }
