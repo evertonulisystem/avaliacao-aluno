@@ -15,6 +15,13 @@ public class Calculos {
 		
 		Aluno aluno1 = new Aluno();
 		
+		aluno1.setNomeAluno(nomeAluno);
+		aluno1.setIdadeAluno(Integer.valueOf(idadeAluno));
+		aluno1.setDataNascimento(dataNascimento);
+		aluno1.setNumeroCPF(numeroCPF);
+		aluno1.setNomePai(nomePai);
+		aluno1.setNomeMae(nomeMae);
+		
 		
 		
 	}
