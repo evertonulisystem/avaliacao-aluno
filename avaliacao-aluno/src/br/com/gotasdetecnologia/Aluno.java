@@ -108,7 +108,18 @@ public class Aluno {
 		this.disciplina1 = disciplina1;
 	}
 
+	public double getMedia() {
+		return ((nota1 + nota2 + nota3+ nota4)/4);
+		}
 	
+	public boolean getResultado() {
+		double media = this.getMedia();
+		if (media >= 70) {
+			return true;
+		}else {
+				return false;
+					}
+	}
 
 	
 

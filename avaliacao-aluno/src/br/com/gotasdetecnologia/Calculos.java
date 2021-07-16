@@ -48,11 +48,8 @@ public class Calculos {
 		System.out.println("Nota 3 definida" + aluno1.getNota3());
 		System.out.println("Nota 4 definida" + aluno1.getNota4());
 		
-		
-		
-		
-		
+		System.out.println("A média do aluno foi: " + aluno1.getMedia());
+		System.out.println("O aluno foi aprovado? " + aluno1.getResultado());
 		
 	}
-
 }
