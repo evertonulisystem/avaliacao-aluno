@@ -14,9 +14,6 @@ Canal voltado a tecnologia da Informação: [Gotas de Tecnologia](https://www.yo
 
 ![Teste](https://github.com/evertonulisystem/avaliacao-aluno/blob/master/assets/LogoGotasDeTecnologia.png) 
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
-
 # Features implementadas - CAsos de Uso
 * Cadastro de alunos com seus dados (Sem banco de dados)
 * Consulta de notas
@@ -36,38 +33,10 @@ Canal voltado a tecnologia da Informação: [Gotas de Tecnologia](https://www.yo
 - Java Swing 
 
 # Como executar o projeto
+## Definir como baixar para reutilizar
 
 ## Back end
 Pré-requisitos: Java 11
-
-```bash
-# clonar repositório
-git clone https://github.com/evertonulisystem/avaliacao-aluno
-
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
-
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/evertonulisystem/avaliacao-aluno
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
----  
 
 # Autor
 :bowtie:
