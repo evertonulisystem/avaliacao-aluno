@@ -74,7 +74,7 @@ public class Aluno {
 
 	
 		public double getMedia() {
-		return ((getDisciplina.nota1 + nota2 + nota3+ nota4)/4);
+		return ((disciplina.getNota1() +disciplina.getNota2()+disciplina.getNota3()+disciplina.getNota4()));
 		}
 	
 	public boolean getResultado() {
