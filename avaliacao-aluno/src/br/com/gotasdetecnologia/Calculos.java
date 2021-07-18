@@ -43,11 +43,11 @@ public class Calculos {
 		System.out.println("Pai do aluno: " + aluno1.getNomePai());
 		System.out.println("Mãe do Aluno: " + aluno1.getNomeMae());
 		
-		System.out.println("Disciplina Avaliada: " + aluno1.getDisciplina1());
-		System.out.println("Nota 1 definida" + aluno1.getNota1());
-		System.out.println("Nota 2 definida" + aluno1.getNota2());
-		System.out.println("Nota 3 definida" + aluno1.getNota3());
-		System.out.println("Nota 4 definida" + aluno1.getNota4());
+		System.out.println("Disciplina Avaliada: " + aluno1.getDisciplina());
+		System.out.println("Nota 1 definida" + aluno1.getDisciplina().getNota1());
+		System.out.println("Nota 2 definida" + aluno1.getDisciplina().getNota2());
+		System.out.println("Nota 3 definida" + aluno1.getDisciplina().getNota3());
+		System.out.println("Nota 4 definida" + aluno1.getDisciplina().getNota4());
 		
 		System.out.println("A média do aluno foi: " + aluno1.getMedia());
 		System.out.println("O aluno foi aprovado? " + aluno1.getResultado());
