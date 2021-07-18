@@ -13,14 +13,6 @@ public class Calculos {
 		String nomePai = JOptionPane.showInputDialog("Informe o nome do pai do aluno: ");
 		String nomeMae = JOptionPane.showInputDialog("Informe o nome da mae do aluno: ");
 		
-		//String disciplina1 = JOptionPane.showInputDialog("Qual a Disciplina? ");
-		
-		String nota1 = JOptionPane.showInputDialog("Qual a nota 1? ");
-		String nota2 = JOptionPane.showInputDialog("Qual a nota 2? ");
-		String nota3 = JOptionPane.showInputDialog("Qual a nota 3? ");
-		String nota4 = JOptionPane.showInputDialog("Qual a nota 4? ");
-		
-		
 		Aluno aluno1 = new Aluno();
 		
 		aluno1.setNomeAluno(nomeAluno);
@@ -30,25 +22,43 @@ public class Calculos {
 		aluno1.setNomePai(nomePai);
 		aluno1.setNomeMae(nomeMae);
 			
-		Disciplina disciplina1 = new Disciplina();
-		disciplina1.setDisciplina("Banco de Dados");
-		disciplina1.setNota(90);
-		aluno1.getDisciplinas().add(disciplina1);
+//		Disciplina disciplina1 = new Disciplina();
+//		disciplina1.setDisciplina("Banco de Dados");
+//		disciplina1.setNota(90);
+//		aluno1.getDisciplinas().add(disciplina1);
+//		
+//		Disciplina disciplina2 = new Disciplina();
+//		disciplina2.setDisciplina("Hardware");
+//		disciplina2.setNota(80);
+//		aluno1.getDisciplinas().add(disciplina2);
+//		
+//		Disciplina disciplina3 = new Disciplina();
+//		disciplina3.setDisciplina("Logica");
+//		disciplina3.setNota(50);
+//		aluno1.getDisciplinas().add(disciplina3);
+//		
+//		Disciplina disciplina4 = new Disciplina();
+//		disciplina4.setDisciplina("Redes");
+//		disciplina4.setNota(50);
+//		aluno1.getDisciplinas().add(disciplina4);
 		
-		Disciplina disciplina2 = new Disciplina();
-		disciplina2.setDisciplina("Hardware");
-		disciplina2.setNota(80);
-		aluno1.getDisciplinas().add(disciplina2);
 		
-		Disciplina disciplina3 = new Disciplina();
-		disciplina3.setDisciplina("Logica");
-		disciplina3.setNota(50);
-		aluno1.getDisciplinas().add(disciplina3);
+		for (int posicao = 1; posicao <= 4; posicao++) {
+			
+			String nomeDisciplina = JOptionPane.showInputDialog("Nome da Disciplina "+posicao+":");
+			String notaDisciplina = JOptionPane.showInputDialog("Nota da Disciplina:"+posicao+":");
+			
+			
+			Disciplina disciplina = new Disciplina();
+			disciplina.setDisciplina(nomeDisciplina);
+			disciplina.setNota(Double.valueOf(notaDisciplina));
+			
+			aluno1.getDisciplinas().add(disciplina);
+			
+		}
 		
-		Disciplina disciplina4 = new Disciplina();
-		disciplina4.setDisciplina("Redes");
-		disciplina4.setNota(50);
-		aluno1.getDisciplinas().add(disciplina4);
+		
+		
 		
 		
 		//Saida Inicial com dados do aluno
