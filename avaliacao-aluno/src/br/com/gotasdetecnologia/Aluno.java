@@ -1,5 +1,8 @@
 package br.com.gotasdetecnologia;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Aluno {
 	
 	private String nomeAluno;
@@ -9,18 +12,19 @@ public class Aluno {
 	private String nomePai;
 	private String nomeMae; 
 	
-	private Disciplina disciplina = new Disciplina();
+	// essa linha sai quando virar Lista private Disciplina disciplina = new Disciplina();
+	private List<Disciplina> disciplinas = new ArrayList<Disciplina>();
 	
-	public void setDisciplina(Disciplina disciplina) {
-		this.disciplina = disciplina;
+	
+
+	public List<Disciplina> getDisciplinas() {
+		return disciplinas;
 	}
-	
-	public Disciplina getDisciplina() {
-		return disciplina;
+
+	public void setDisciplinas(List<Disciplina> disciplinas) {
+		this.disciplinas = disciplinas;
 	}
-	
-	
-	
+
 	public Aluno() {
 	}
 
@@ -74,7 +78,7 @@ public class Aluno {
 
 	
 		public double getMedia() {
-		return ((disciplina.getNota1() +disciplina.getNota2()+disciplina.getNota3()+disciplina.getNota4()));
+		return 0;
 		}
 	
 	public boolean getResultado() {
@@ -89,8 +93,7 @@ public class Aluno {
 	@Override
 	public String toString() {
 		return "Aluno [nomeAluno=" + nomeAluno + ", idadeAluno=" + idadeAluno + ", dataNascimento=" + dataNascimento
-				+ ", numeroCPF=" + numeroCPF + ", nomePai=" + nomePai + ", nomeMae=" + nomeMae + ", disciplina="
-				+ disciplina + "]";
+				+ ", numeroCPF=" + numeroCPF + ", nomePai=" + nomePai + ", nomeMae=" + nomeMae+"]";
 	}
 
 	
