@@ -20,6 +20,7 @@ public class Calculos {
 		String nota3 = JOptionPane.showInputDialog("Qual a nota 3? ");
 		String nota4 = JOptionPane.showInputDialog("Qual a nota 4? ");
 		
+		
 		Aluno aluno1 = new Aluno();
 		
 		aluno1.setNomeAluno(nomeAluno);
