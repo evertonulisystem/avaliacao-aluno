@@ -79,10 +79,15 @@ public class Aluno {
 
 	
 		public double getMedia() {
-		return 0;
+		double somaNotas = 0.0;
+		
+		for (Disciplina disciplina : disciplinas) {
+			somaNotas += disciplina.getNota();
 		}
-	
-	public boolean getResultado() {
+		return somaNotas / disciplinas.size();
+		}
+		
+		public boolean getResultado() {
 		double media = this.getMedia();
 		if (media >= 70) {
 			return true;
