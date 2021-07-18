@@ -86,6 +86,13 @@ public class Aluno {
 					}
 	}
 
+	@Override
+	public String toString() {
+		return "Aluno [nomeAluno=" + nomeAluno + ", idadeAluno=" + idadeAluno + ", dataNascimento=" + dataNascimento
+				+ ", numeroCPF=" + numeroCPF + ", nomePai=" + nomePai + ", nomeMae=" + nomeMae + ", disciplina="
+				+ disciplina + "]";
+	}
+
 	
 
 }
