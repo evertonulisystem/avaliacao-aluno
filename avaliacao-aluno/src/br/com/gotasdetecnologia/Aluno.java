@@ -13,6 +13,7 @@ public class Aluno {
 	private String nomeMae; 
 	
 	// essa linha sai quando virar Lista private Disciplina disciplina = new Disciplina();
+	
 	private List<Disciplina> disciplinas = new ArrayList<Disciplina>();
 	
 	
