@@ -22,26 +22,7 @@ public class Calculos {
 		aluno1.setNomePai(nomePai);
 		aluno1.setNomeMae(nomeMae);
 			
-//		Disciplina disciplina1 = new Disciplina();
-//		disciplina1.setDisciplina("Banco de Dados");
-//		disciplina1.setNota(90);
-//		aluno1.getDisciplinas().add(disciplina1);
-//		
-//		Disciplina disciplina2 = new Disciplina();
-//		disciplina2.setDisciplina("Hardware");
-//		disciplina2.setNota(80);
-//		aluno1.getDisciplinas().add(disciplina2);
-//		
-//		Disciplina disciplina3 = new Disciplina();
-//		disciplina3.setDisciplina("Logica");
-//		disciplina3.setNota(50);
-//		aluno1.getDisciplinas().add(disciplina3);
-//		
-//		Disciplina disciplina4 = new Disciplina();
-//		disciplina4.setDisciplina("Redes");
-//		disciplina4.setNota(50);
-//		aluno1.getDisciplinas().add(disciplina4);
-		
+	
 		
 		for (int posicao = 1; posicao <= 4; posicao++) {
 			
@@ -58,10 +39,14 @@ public class Calculos {
 		}
 		
 		
+		int escolha = JOptionPane.showConfirmDialog(null, "DEseja remover alguma disciplina?");
+		if (escolha ==0) {
+			String disciplinaRemover = JOptionPane.showInputDialog("Qual a discilina 1 ,2 3, ou 4 ?");
+			aluno1.getDisciplinas().remove(Integer.valueOf(disciplinaRemover));
+
+			
+		}
 		
-		
-		
-		//Saida Inicial com dados do aluno
 		System.out.println("Nome do aluno: " + aluno1.getNomeAluno());
 		System.out.println("Idade do aluno: " + aluno1.getIdadeAluno());
 		System.out.println("Nascimento do aluno: " + aluno1.getDataNascimento());
@@ -69,7 +54,7 @@ public class Calculos {
 		System.out.println("Mãe do Aluno: " + aluno1.getNomeMae());
 		System.out.println("A média do aluno foi: " + aluno1.getMedia());
 		System.out.println("O aluno foi aprovado? " + aluno1.getResultado());
-		System.out.println("Novo envio de teste? ");
+		
 		
 	}
 }
