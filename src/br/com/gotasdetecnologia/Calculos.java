@@ -69,6 +69,7 @@ public class Calculos {
 		System.out.println("Mãe do Aluno: " + aluno1.getNomeMae());
 		System.out.println("A média do aluno foi: " + aluno1.getMedia());
 		System.out.println("O aluno foi aprovado? " + aluno1.getResultado());
+		System.out.println("Novo envio de teste? ");
 		
 	}
 }
